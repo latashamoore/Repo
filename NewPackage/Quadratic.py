@@ -59,10 +59,14 @@ def display_equation_and_value(a_value, b_value, c_value, x_value):
 
 def quadratic_equation():
     display_intro()
+    global a
     a = 0
+    global b
     b = 0
+    global c
     c = 0
+    global x
     x = 0
     get_values(a, b, c, x)
 #   qvalue = calculate_quadratic_value(a, b, c, x)
-#    display_equation_and_value(a, b, c, x)
+    display_equation_and_value(a, b, c, x)
