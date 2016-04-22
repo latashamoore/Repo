@@ -71,3 +71,5 @@ def quadratic_equation():
 #   qvalue is not needed since its calculated later
 #   qvalue = calculate_quadratic_value(a, b, c, x)
     display_equation_and_value(a, b, c, x)
+
+quadratic_equation()
