@@ -68,5 +68,6 @@ def quadratic_equation():
     global x
     x = 0
     get_values(a, b, c, x)
+#   qvalue is not needed since its calculated later
 #   qvalue = calculate_quadratic_value(a, b, c, x)
     display_equation_and_value(a, b, c, x)
