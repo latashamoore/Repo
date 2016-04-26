@@ -40,26 +40,27 @@ def find_max(array):
             maximum = array[x]
     return maximum
 
+
 def find_min_max():
     print("")
     print("*** Largest/Smallest Numbers in the List ***")
     print("")
     my_list = []
-    validInput = False
-    while validInput == False:
+    valid_input = False
+    while valid_input == False:
         try:
             array_length = int(input("How many numbers would you like to add to the list? "))
             if array_length <= 0:
                 print("Please enter a valid integer value above 0. ")
-            validInput = True
+            valid_input = True
         except:
             print("Only valid integer values are accepted.")
-    validInput = False
-    while validInput == False:
+    valid_input = False
+    while valid_input == False:
         try:
             for x in range(0, array_length):
                 my_list.append(int(input("Which number would you like to add to the list? ")))
-                validInput = True
+                valid_input = True
         except:
             print("Please enter a valid integer value")
 
